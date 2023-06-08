@@ -83,6 +83,7 @@ body {
   text-align: center;
   text-decoration: none;
   color: rgba(0, 0, 0, 0.5);
+  mix-blend-mode: screen;
   background-color: var(--very-light-gray);
 }
 
@@ -99,7 +100,6 @@ body {
 }
 
 /* Media Query */
-
 @media only screen and (max-width: 845px) {
   #container {
     display: flex;
